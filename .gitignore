@@ -1,0 +1,17 @@
+# 데이터 (원본·가공본 모두 저장소에 올리지 않는다)
+data/
+
+# 비밀 설정
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# Vercel 로컬 설정
+.vercel/
+
+# OS·편집기 찌꺼기
+.DS_Store
+Thumbs.db
+desktop.ini
