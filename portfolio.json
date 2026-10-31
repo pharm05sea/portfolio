@@ -3,9 +3,9 @@
   "headline": "AI와 함께 만든 데이터 도구",
   "intro": "매주 하나씩 만들어 올립니다. 도구마다 제가 내린 판단이 하나씩 들어 있습니다.",
   "cards": [
-    {"week": 1, "title": "감 테스트", "line": "나의 감을 알아보는 즐거운 게임이야",
-     "judgment": "눈 온 날을 하루 1cm 이상으로 정하고 그 기준을 문항 문장에 넣었다. 정답 하나는 엑셀로 직접 세어 맞췄다",
-     "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-rho.vercel.app/", "img": "img/w1.jpg"}
+    {"week": 1, "title": "건강 테스트", "line": "건강 숫자에 대한 나의 감을 알아보는 즐거운 게임이야",
+     "judgment": "정답 숫자를 코드에 직접 쓰지 않고 공개 자료에서 계산하게 했다. 원자료가 공개되지 않은 치매 인식도 조사는 보고서 공표값을 쓰되, 문항마다 '원자료 재계산 아님'과 보고서 쪽·표 번호를 밝혔다",
+     "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-rho.vercel.app/", "img": "img/w1.png"}
   ],
   "proposal": null
 }
