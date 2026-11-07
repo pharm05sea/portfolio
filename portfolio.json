@@ -8,7 +8,7 @@
      "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-rho.vercel.app/", "img": "img/w1.png"},
     {"week": 2, "title": "NPD 신제품 개발 안건 분류기 — 빈 폴더에서", "line": "신제품 개발 안건을 한 줄 입력하면 담당 분류 · 긴급도 · 판단 이유가 나옵니다. 학습용 문장과 정답은 직접 만들었습니다.",
      "judgment": "가장 치명적인 실수는 사업화에 영향을 미치는 핵심 안건을 잘못 분류하거나 놓치는 것으로 정했다. 규칙과 AI의 채점 결과를 비교해 오분류와 누락 건수를 별도로 확인했다.",
-     "ai": ["Claude Code", "Gemini"], "url": "https://portfolio-rho-roan-47.vercel.app/", "img": ""}
+     "ai": ["Claude Code", "Gemini"], "url": "https://portfolio-rho-roan-47.vercel.app/", "img": "img/w2.png"}
   ],
   "proposal": null
 }
