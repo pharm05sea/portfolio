@@ -11,7 +11,10 @@
      "ai": ["Claude Code", "Gemini"], "url": "https://my-classifier-6ubj.vercel.app/", "img": "img/w2.png"},
     {"week": 3, "title": "경쟁제품 가격·함량 정리기 — 빈 폴더에서", "line": "경쟁제품 조사 엑셀을 끌어다 놓으면 내 처방대로 정리본과 바꾼 기록이 나옵니다. 파일은 브라우저를 떠나지 않습니다",
      "judgment": "판매가·성분함량이 의심스러운 줄은 고치지 않고 표시했다. 정리 결과 206행에서 203행으로 정리했고, 중복 3행을 제거하고 값 32개를 수정했으며 9행은 표시했다",
-     "ai": ["Claude Code"], "url": "https://my-cleaner-seven.vercel.app/", "img": "img/w3.png"}
+     "ai": ["Claude Code"], "url": "https://my-cleaner-seven.vercel.app/", "img": "img/w3.png"},
+    {"week": 4, "title": "월간 보고 SQL 앱", "line": "매달 추출한 엑셀을 넣으면 정해 둔 질문의 답이 SQL과 함께 나옵니다",
+     "judgment": "",
+     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://sql-window-nu.vercel.app/", "img": ""}
   ],
   "proposal": null
 }
