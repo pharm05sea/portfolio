@@ -14,7 +14,7 @@
      "ai": ["Claude Code"], "url": "https://my-cleaner-seven.vercel.app/", "img": "img/w3.png"},
     {"week": 4, "title": "식약처 품목신고 분석 SQL 앱 - 신규 제품 검토 후보 발굴", "line": "식약처 품목신고·기능성 분류·제품 상세자료를 연결해 기간별 기능성×제형 품목 수와 제조업소 수를 비교하고, 신규 제품 개발 검토 후보를 찾습니다.",
      "judgment": "품목 수는 고유 신고번호로 셌다. 기능성이 여러 개인 신고 때문에 세 표를 바로 조인하면 7,482행으로 실제 신고 3,289건보다 2배 넘게 부풀기 때문이다. 신고가 늘어도 한 업소에 몰린 조합은 후보에서 빼, 증가폭 2위였던 장 건강·배변 × 분말(181 → 203건)은 1위 업소 비중 44.8%라 제외했다.",
-     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://my-window-ten.vercel.app/", "img": ""}
+     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://my-window-ten.vercel.app/", "img": "img/w4.png"}
   ],
   "proposal": null
 }
