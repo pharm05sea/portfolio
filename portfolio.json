@@ -14,7 +14,10 @@
      "ai": ["Claude Code"], "url": "https://my-cleaner-seven.vercel.app/", "img": "img/w3.png"},
     {"week": 4, "title": "식약처 품목신고 분석 SQL 앱 - 신규 제품 검토 후보 발굴", "line": "식약처 품목신고·기능성 분류·제품 상세자료를 연결해 기간별 기능성×제형 품목 수와 제조업소 수를 비교하고, 신규 제품 개발 검토 후보를 찾습니다.",
      "judgment": "품목 수는 고유 신고번호로 셌다. 기능성이 여러 개인 신고 때문에 세 표를 바로 조인하면 7,482행으로 실제 신고 3,289건보다 2배 넘게 부풀기 때문이다. 신고가 늘어도 한 업소에 몰린 조합은 후보에서 빼, 증가폭 2위였던 장 건강·배변 × 분말(181 → 203건)은 1위 업소 비중 44.8%라 제외했다.",
-     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://my-window-ten.vercel.app/", "img": "img/w4.png"}
+     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://my-window-ten.vercel.app/", "img": "img/w4.png"},
+    {"week": 5, "title": "내 지표 사전", "line": "신제품 개발 과제 합성 데이터(2025-01~2026-11)로 마일스톤 일정·확정 견적 원가 지표 12개를 정의서 한 장씩 만들었습니다. 카드·대시보드·월간 보고서는 정의서의 SQL대로만 계산합니다.",
+     "judgment": "일정 준수율은 그 달 완료 예정 마일스톤을 분모로 두고, 실제 완료일이 계획일과 같거나 이른 건만 준수(허용 오차 0일)로 셌으며 취소 과제는 뺐다. 원가는 확정 견적만 썼다. 분모를 그 달 완료된 마일스톤만으로 잡는 정의는 기한 안에 못 끝낸 미완료 건이 빠져 '완료 예정이던 것 중'이라는 재려는 대상과 달라지므로 버렸다.",
+     "ai": ["Claude Code"], "url": "https://my-metrics-inky.vercel.app/", "img": "img/w5.png"}
   ],
   "proposal": null
 }
